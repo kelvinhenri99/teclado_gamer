@@ -1,0 +1,236 @@
+.teclado {
+    width: 1300px;
+    height: auto;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0px 0px 17px black;
+}
+
+.teclas1 div{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 29px;
+    text-align: center;
+}
+
+.teclas2 div{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 25px;
+}
+
+.sep {
+    margin-left: 40px!important;
+}
+
+.teclas3 {
+    position: absolute;
+    width: 300px;
+    border: 1px solid transparent;
+    margin-left: 1000px;
+    margin-top: 20px;
+}
+
+.teclas3 div {
+    display: inline-block;
+    width: 45px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+    padding: 7px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 19.5px;
+    text-align: center;
+}
+
+.sep8 {
+    width: 118px!important;
+}
+
+.sep9 {
+    height: 70px!important;
+    position: absolute;
+    margin-left: 14px!important;
+}
+
+.teclas4 div{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 25px;
+}
+
+.teclas5 div{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 25px;
+}
+
+.teclas6 div{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 25px;
+}
+
+.teclas7 div{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 25px;
+}
+
+.teclas8 {
+    width: 200px;
+    border: 1px solid transparent;
+    float: right;
+    margin-right: 313px!important;
+}
+
+.teclas9 {
+    width: 200px;
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 782px;
+    border: 1px solid transparent;
+}
+
+.sep6{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 40px;
+    text-align: center;
+}
+
+.sep7{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 40px;
+}
+
+.teclas8 div{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 40px;
+}
+
+.enter {
+    position: absolute;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    margin-left: 715px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 42px;
+    height: 76px;
+    border-radius: 7px;
+    border-bottom-left-radius: 100%;
+}
+
+.espaco {
+    width: 99%;
+    background-color: rgb(34, 34, 34);
+    height: 80px;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.sep1 {
+    width: 46px!important;
+}
+
+.sep2 {
+    width: 65px!important;
+    
+}
+
+.sep3 {
+    width: 35px!important;
+}
+
+.sep4 {
+    width: 49px!important;
+    text-align: right;
+}
+
+.sep5 {
+    width: 287px!important;
+    text-align: center;
+}
+
+.mai1 {
+    width: 62px!important;
+    text-align: right;
+}
+
+.teclas1 div,
+.teclas2 div,
+.teclas3 div,
+.teclas4 div,
+.teclas5 div,
+.teclas6 div,
+.teclas7 div,
+.teclas8 div,
+.teclas9 div,
+.enter {
+    animation: animacao 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+    10% {box-shadow: 0px 0px 5px red;}
+    20% {box-shadow: 0px 0px 5px blue;}
+    30% {box-shadow: 0px 0px 5px rgb(0, 255, 0);}
+    40% {box-shadow: 0px 0px 5px yellow;}
+}
+
+.sep7 {
+    box-shadow: none!important;
+}
